@@ -1,4 +1,5 @@
 <?php
+/** SPDX-License-Identifier: MIT. See the module docs/LICENSE file. */
 if (!defined('CMS_VERSION')) exit;
 if (!$this->canManageSettings()) return;
 $backendName = trim(strip_tags((string)($params['backend_module_name'] ?? '')));

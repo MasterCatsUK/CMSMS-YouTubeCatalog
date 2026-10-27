@@ -1,6 +1,8 @@
 # YouTubeCatalog for CMS Made Simple
 
-Version **1.0.60**. Display YouTube videos in catalogues, import playlists,
+![YouTubeCatalog module banner](assets/banner-1544x500.png)
+
+Version **1.0.61**. Display YouTube videos in catalogues, import playlists,
 feature a selected video and embed individual videos in CMSMS pages.
 
 ## Features

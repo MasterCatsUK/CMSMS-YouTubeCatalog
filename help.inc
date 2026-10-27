@@ -84,3 +84,9 @@ by default, so this caching group does not change the normal public catalogue
 buttons or All Videos rules.</p>
 <p>The actual video file is not copied to the web host. Playback still streams
 from YouTube only after the visitor presses Play.</p>
+
+<h3>External services</h3>
+<p>**Google YouTube Data API** (`https://www.googleapis.com/youtube/v3/`): retrieve video title, description, duration, statistics, playlist contents and thumbnails. Sends the configured API key, YouTube video/playlist IDs, and API query parameters to Google. Terms: https://developers.google.com/youtube/terms/api-services-terms-of-service ; Privacy: https://policies.google.com/privacy</p>
+<p>**YouTube thumbnail CDN** (`https://i.ytimg.com/` and thumbnails returned by YouTube&#x27;s API): download video thumbnail images into the hosting `/uploads/YouTubeCatalog/` directory. Requests send the YouTube video ID in the URL and the server&#x27;s ordinary HTTP request data. Terms: https://www.youtube.com/t/terms ; Privacy: https://policies.google.com/privacy</p>
+<p>**YouTube embedded player** (`https://www.youtube-nocookie.com/`): streams video only after a visitor clicks Play. The video ID and the visitor&#x27;s browser request details are sent to YouTube at playback time. Terms: https://www.youtube.com/t/terms ; Privacy: https://policies.google.com/privacy</p>
+<p>The admin thumbnail refresh action may also request YouTube-hosted thumbnail URLs. No YouTube video files are stored on your server.</p>

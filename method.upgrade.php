@@ -1,4 +1,5 @@
 <?php
+/** SPDX-License-Identifier: MIT. See the module docs/LICENSE file. */
 if (!defined('CMS_VERSION')) exit;
 
 // Releases 1.0.58–1.0.60 change frontend handling and generic defaults only.

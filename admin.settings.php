@@ -1,4 +1,5 @@
 <?php
+/** SPDX-License-Identifier: MIT. See the module docs/LICENSE file. */
 echo $this->CreateFormStart($id,'savesettings',$returnid);
 echo '<h3>Backend</h3>';
 echo '<div class="pageoverflow"><p class="pagetext">Backend module name:</p><p class="pageinput"><input type="text" name="'.$id.'backend_module_name" value="'.htmlspecialchars($this->GetPreference('backend_module_name','YouTube Video Catalog'),ENT_QUOTES,'UTF-8').'" size="60" maxlength="80"><br><small>Changes the friendly name shown to administrators. The technical module name, folder and frontend tag remain <strong>YouTubeCatalog</strong>.</small></p></div>';

@@ -1,4 +1,5 @@
 <?php
+/** SPDX-License-Identifier: MIT. See the module docs/LICENSE file. */
 if (!defined('CMS_VERSION')) exit;
 $expected = (string)$this->GetPreference('cron_token','');
 $given = isset($params['token']) ? (string)$params['token'] : '';

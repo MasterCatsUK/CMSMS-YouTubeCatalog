@@ -1,4 +1,5 @@
 <?php
+/** SPDX-License-Identifier: MIT. See the module docs/LICENSE file. */
 class YouTubeCatalogApi
 {
     private static $dbPrepared = false;

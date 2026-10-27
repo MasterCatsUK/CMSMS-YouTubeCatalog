@@ -1,4 +1,5 @@
 <?php
+/** SPDX-License-Identifier: MIT. See the module docs/LICENSE file. */
 if (!defined('CMS_VERSION')) exit;
 $db = cmsms()->GetDb();
 $db->Execute('SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci');

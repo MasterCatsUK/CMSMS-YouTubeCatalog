@@ -1,4 +1,5 @@
 <?php
+/** SPDX-License-Identifier: MIT. See the module docs/LICENSE file. */
 $db = cmsms()->GetDb();
 $featuredVideoId = $this->getFeaturedVideoId();
 require_once __DIR__.'/lib/YouTubeCatalog.api.php';

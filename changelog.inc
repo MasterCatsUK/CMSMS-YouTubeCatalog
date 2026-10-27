@@ -1,3 +1,5 @@
+<h3>1.0.61</h3>
+<ul><li>Added licence headers, project artwork and public project metadata for Forge distribution. No catalogue schema or video data changes.</li></ul>
 <h3>1.0.60</h3>
 <ul>
 <li>General-purpose public distribution with neutral introduction text and frontend template comments.</li>

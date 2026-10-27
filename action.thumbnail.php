@@ -1,4 +1,5 @@
 <?php
+/** SPDX-License-Identifier: MIT. See the module docs/LICENSE file. */
 if (!defined('CMS_VERSION')) exit;
 
 $videoId = isset($params['video_id']) ? (int)$params['video_id'] : 0;

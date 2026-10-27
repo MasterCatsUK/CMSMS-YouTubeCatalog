@@ -1,4 +1,5 @@
 <?php
+/** SPDX-License-Identifier: MIT. See the module docs/LICENSE file. */
 // YouTubeCatalog module for CMS Made Simple.
 // Copyright (c) 2026 Andrew Smith. Licensed under the MIT License.
 // See docs/LICENSE for the full licence text.
@@ -12,9 +13,9 @@ class YouTubeCatalog extends CMSModule
         $name = trim((string)$this->GetPreference('backend_module_name','YouTube Video Catalog'));
         return $name !== '' ? $name : 'YouTube Video Catalog';
     }
-    public function GetVersion() { return '1.0.60'; }
+    public function GetVersion() { return '1.0.61'; }
     public function GetAuthor() { return 'Andrew Smith'; }
-    public function GetAuthorEmail() { return ''; }
+    public function GetAuthorEmail() { return '2790828+MasterCatsUK@users.noreply.github.com'; }
     public function GetHelp() { return file_get_contents(__DIR__.'/help.inc'); }
     public function GetChangeLog() { return file_get_contents(__DIR__.'/changelog.inc'); }
     public function UninstallPreMessage() { return 'Uninstalling YouTubeCatalog deletes its stored video/catalogue records and module settings. Back up your data before continuing.'; }
