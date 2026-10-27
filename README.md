@@ -1,4 +1,4 @@
-# YouTubeCatalog for CMS Made Simple
+# YouTubeCatalog Module for CMS Made Simple
 
 ![YouTubeCatalog module banner](assets/banner-1544x500.png)
 
