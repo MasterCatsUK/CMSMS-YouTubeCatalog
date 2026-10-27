@@ -1,0 +1,46 @@
+.ytc-section-line{width:60px;height:4px;background:#e8754f;border-radius:4px}.ytc-video-player{background:#202427;position:relative;cursor:default;aspect-ratio:16/9;overflow:hidden;width:100%;isolation:isolate}.ytc-video-thumbnail{position:absolute!important;inset:0!important;z-index:0!important;width:100%!important;height:100%!important;max-width:none!important;object-fit:cover!important;display:block!important;opacity:1!important;visibility:visible!important}.ytc-video-play-button{cursor:pointer;position:absolute!important;top:50%;left:50%;transform:translate(-50%,-50%);width:76px;height:76px;border:0;border-radius:50%;background:rgba(0,0,0,.78);display:flex;align-items:center;justify-content:center;transition:transform .2s ease,background-color .2s ease;z-index:3}.ytc-video-play-button:hover,.ytc-video-play-button:focus-visible{background:#f0784c;transform:translate(-50%,-50%) scale(1.08)}.ytc-video-play-triangle{width:0;height:0;border-top:13px solid transparent;border-bottom:13px solid transparent;border-left:21px solid #fff;margin-left:5px}.ytc-youtube-frame{position:absolute;inset:0;z-index:1;width:100%;height:100%;border:0;display:block}.ytc-duration{position:absolute!important;top:auto!important;left:auto!important;right:.55rem!important;bottom:.55rem!important;z-index:3!important;width:auto!important;height:auto!important}.ytc-description{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}.btn-ytc{background:#f0784c;border-color:#f0784c;color:#fff}.btn-ytc:hover{background:#dc6840;border-color:#dc6840;color:#fff}
+
+.ytc-video-gallery .card-body{min-height:0}.ytc-card-stats{display:flex!important;align-items:center;justify-content:space-between;gap:1rem;width:100%;margin-top:auto!important}.ytc-card-time{margin-right:auto;text-align:left;white-space:nowrap}.ytc-card-views{margin-left:auto;text-align:right;white-space:nowrap}
+
+/* Full-screen control */
+.ytc-fullscreen-trigger{position:absolute;top:12px;right:12px;z-index:6;border:0;border-radius:.5rem;background:rgba(0,0,0,.72);color:#fff;padding:.42rem .65rem;font-size:.82rem;font-weight:600;line-height:1;display:inline-flex;align-items:center;gap:.35rem;cursor:pointer;transition:background-color .2s ease,transform .2s ease}
+.ytc-fullscreen-trigger:hover,.ytc-fullscreen-trigger:focus-visible{background:#f0784c;transform:scale(1.04);outline:none}
+.ytc-video-player:fullscreen,.ytc-video-player:-webkit-full-screen{width:100vw!important;height:100vh!important;aspect-ratio:auto!important;background:#000}
+.ytc-video-player:fullscreen .ytc-video-thumbnail,.ytc-video-player:-webkit-full-screen .ytc-video-thumbnail{object-fit:contain!important}
+.ytc-video-player:fullscreen .ytc-youtube-frame,.ytc-video-player:-webkit-full-screen .ytc-youtube-frame{width:100%!important;height:100%!important}
+@media(max-width:575.98px){.ytc-fullscreen-trigger{top:8px;right:8px;padding:.38rem .5rem}.ytc-fullscreen-label{display:none}}
+
+
+
+
+
+
+/* 1.0.18: startup-only custom Play button; YouTube iframe is inserted only after click. */
+.ytc-video-player.ytc-is-playing .ytc-youtube-frame{pointer-events:auto}
+@media(max-width:575.98px){.ytc-video-play-button{width:62px;height:62px}}
+
+
+/* 1.0.19: working catalogue filter buttons */
+.ytc-catalog-filter{border-radius:999px;padding:.55rem 1.25rem;font-weight:600}
+.ytc-catalog-filter.is-active{background:#f0784c;border-color:#f0784c;color:#fff}
+.ytc-video-item[hidden]{display:none!important}
+
+
+/* Catalogue description shown below the frontend filter buttons */
+.ytc-catalog-description-wrap {
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ytc-catalog-description {
+  line-height: 1.7;
+  color: #495057;
+}
+.ytc-catalog-description > :last-child { margin-bottom: 0; }
+.ytc-catalog-description:empty { display: none; }
+
+.ytc-catalog-description-wrap[hidden]{display:none!important}
+
+
+/* 1.0.35: centre video cards when a row is not full */
+.ytc-video-gallery .row{justify-content:center}
