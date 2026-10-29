@@ -45,6 +45,12 @@ third-party work or imply endorsement.
 
 ## Project artwork
 
+The Module Manager icon was generated with **OpenAI ImageGen** on 29 October
+2026, with direction and selection by the maintainer. PNG exports were resized
+with **Pillow** ([project and contributors](https://python-pillow.github.io/),
+[licence](https://github.com/python-pillow/Pillow/blob/main/LICENSE)).
+No external stock image or third-party icon pack was used for this icon.
+
 The promotional module banner was generated for this project with **OpenAI
 ImageGen** on 27 October 2026, with direction and selection by the maintainer.
 It is an illustration of the module's purpose, not a screenshot of its interface.
