@@ -83,3 +83,7 @@ The admin thumbnail refresh action may also request YouTube-hosted thumbnail URL
 
 MIT License, copyright (c) 2026 Andrew Smith. See [LICENSE](LICENSE).
 Project support: [GitHub issues](https://github.com/MasterCatsUK/CMSMS-YouTubeCatalog/issues).
+
+## Credits and acknowledgements
+
+See [CREDITS.md](CREDITS.md) for the projects, contributors, services, documentation and artwork that support this module. Existing licence notices are preserved.
